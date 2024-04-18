@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cup!d</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+	<style>
+        @font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+html{overflow: scroll;}
+	body,h1,h2,h3,p,ul,li{margin: 0px;padding: 0px}
+	body,h1,p{margin: 0;}
+    body{background: white; word-break: keep-all;}
+    nav {position: fixed; /* 고정 위치 */
+    top: 0; /* 화면 위쪽에 위치하도록 설정 */
+    width: 100%; /* 화면 너비에 맞추기 */}
+	.menu li a{display: inline-block;text-decoration: none;color: white;}
+	.menu li{list-style-type: none;}
+	.flex{display: flex; justify-content: space-between; align-items: center;}
+	.logo{width: 20px; height: 20px; padding: 5px; background-color: #FF97DF}
+	.logo2{width: 70px; margin-left: auto; background-color: #FF97DF; margin-right: 5px;}
+	.pink{background-color: #FF97DF}
+    h2{color: #FF88DB; text-shadow: 0px 0px 4px #FF88DB; font-size: 1.2em; font-family: 'Pretendard-medium'; padding-bottom: 8px}
+	.menu{display: flex; justify-content: space-between; font-size: 0.9rem; flex-wrap: nowrap; padding-left: 5px; margin-right: 0px}
+    .menu li {text-align: left; width: calc(100% / 7);}
+    a:hover{background: white;
+            box-shadow: none;
+            color: #FF97DF !important;;
+            transition: all 0.3s;}
+    .about{font-size: 3.0rem; color: #FF69D1; padding-top: 50px; font-family:"Petit Formal Script", cursive;font-weight: 500; font-style: italic; padding-left: 10px; text-shadow: 0px 0px 6px #FF69D1; letter-spacing: -2px;}
+    .bw{color: #5F2E00}
+    p{color: black; font-family: 'Pretendard-medium';line-height: 1.4; padding-bottom: 20px; font-size: 1.0rem;}
+    .p{right: 6px; line-height: 1.1; font-size: 0.8rem; padding: 5px 10px; display: block;text-decoration: none;color: #5F2E00; left: 5px; line-height: 1.5;font-family: 'Pretendard-medium';
+    display: flex; /* 세로 배치를 위해 flex 속성 추가 */
+    flex-direction: column; /* 세로로 배치 */
+    align-items: left; /* 세로 정렬 */}
+    .text-info {
+    position: fixed;
+    right: 20px;
+    top:60px;
+    text-align: left;
+    width: 50vw;
+    padding: 0 20px;
+    padding-top: 0px;}
+    .s2{width: 250px;display: block; margin: 0 auto;} 
+    .s3{width: 250px; text-align: left; margin: 0 auto;}
+	</style>
+</head>
+<body>
+	<nav class="pink">
+    <div class="flex">
+    <img class="logo" src="white.png">
+    <img class="logo2" src="white2.png">
+    </div>
+		<ul class="menu flex">
+			<li><a href="#aaa">SHOP</a></li>
+			<li><a href="#aaa">COLLECTION</a></li>
+			<li><a href="#aaa">CONTACT</a></li>
+			<li><a href="#aaa">LOGIN</a></li>
+			<li><a href="#bbb">JOIN US</a></li>
+			<li><a href="#ccc">ORDER</a></li>
+			<li><a href="#ddd">CART (0)</a></li>
+		</ul>
+		</nav>
+    <section>
+        <div class="list-left-fixed">
+        <h1 class="about">About</h1>
+        <p class="bw p">
+            <a>Contents (A)</a>
+            <a>Contents (B)</a>
+            <a>Contents (C)</a>
+            <a>Contents (D)</a>
+            <a>Review</a>
+        </p>
+        </div>
+    </section>
+    <section>
+        <div class="text-info">
+        <h2 class="pink2">"사랑이 처음이라..."</h2>
+        <p>Cup!d는 사랑 초보자를 위한 LovE Package를 제작합니다.<br>LovE Package는 이런 분들에게 도움을 드릴 수 있습니다.</p>
+    </div>
+        <div class="flex">
+        <img src="em.png" class="s2">
+        <p class="s3">처음 겪는 모든 것에 불안을 느끼고 당황하는 분들</p>
+        </div>
+        <div class="flex">
+        <img src="mosol.png">
+        <p>모태솔로임을 들키고 싶지 않은 분들</p>
+        </div>
+        <div class="flex">
+        <img src="hand.png">
+        <p>이번 사랑을 후회 없이 하고 싶으신 분들</p>
+        </div>
+        <div class="flex">
+        <img src="eye.png">
+        <p>자신의 주변, 인간관계에 애인만 있어도 된다 하시는 분들</p>
+        </div>
+    </section>
+</body>
+</html>
